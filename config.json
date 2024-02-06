@@ -1,0 +1,37 @@
+{
+    "useWhatsAppApi": false,
+    "whatsAppUrl": "http://localhost:5000/group/sendmessage/grupo de vuelos",
+    "flightsToSearch":[
+        {
+            "destination":"miami",
+            "url":"https://almundo.com.ar/vuelos/vuelos-a-miami/bue-mia",
+            "maxPrice":810000
+        },
+        {
+            "destination":"orlando",
+            "url":"https://almundo.com.ar/vuelos/vuelos-a-orlando/bue-orl",
+            "maxPrice":700000
+        },
+        {
+            "destination":"new york",
+            "url":"https://almundo.com.ar/vuelos/vuelos-a-nueva-york/bue-nyc",
+            "maxPrice":500000
+        },
+        {
+            "destination":"frankfurt",
+            "url":"https://almundo.com.ar/vuelos/vuelos-a-frankfurt/bue-fra",
+            "maxPrice":500000
+        },
+        {
+            "destination":"madrid",
+            "url":"https://almundo.com.ar/vuelos/vuelos-a-madrid/bue-mad",
+            "maxPrice":500000
+        },
+        {
+            "destination":"cancun",
+            "url":"https://almundo.com.ar/vuelos/vuelos-a-cancun/bue-cun",
+            "maxPrice":500000
+        }
+   ],
+   "cronTabConfig":"0 */1 * * * *" 
+}
